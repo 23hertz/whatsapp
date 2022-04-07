@@ -1,0 +1,196 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    max-width: 450px;
+    width: 100%;
+    height: auto;
+    margin:20px auto;
+    border-radius: 21px;
+    background-color: linear-gradient(145deg, #f0f0f0, #cacaca);
+    /*box-shadow: 18px 18px 17px #9d9d9d, -18px -18px 17px #ffffff;*/
+    box-shadow: 18px 18px 17px #9d9d9d, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom:10px ;
+}
+
+.imgDiv
+{
+    margin:0px auto;
+    text-align: center;
+}
+
+
+img
+{
+    margin:20px 0px;
+    text-align: center !important;
+    width:150px;
+    height: 140px;
+    border-radius:75%;
+    text-align: center;
+}
+
+.head-section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.head-section h2
+{
+    font-size: 50px;
+    font-weight: 760px;
+}
+
+.head-section h3
+{
+    padding-top: 12px;
+
+}
+
+.head-section p
+{
+    padding-top: 12px;
+    font-weight: 700px;
+}
+
+/*  Top Section  */
+.topSection
+{
+    margin: 20px;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-around;
+
+}
+
+.topSection .myCard
+{
+    text-align: center;
+}
+
+.myCard
+{
+    width: 100px;
+}
+
+.myCard .fa{
+    font-size: 30px;
+    color: rgb(4, 216, 4);
+}
+.myCard h3
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+/* the main part*/
+.fmain
+{
+    margin-top:20px
+}
+.fmain h2,h3
+{
+    padding-left: 30px;
+}
+
+/* smian*/
+.smain
+{
+    margin-top: 50px;
+}
+.top-smain
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.top-smain h3
+{
+    color:lightgrey;
+       
+}
+
+.smain .fa
+{
+color: lightgrey;
+margin-right:25px;
+}
+
+
+
+.twos
+{
+    margin-top:10px;
+    margin-bottom: 10px !important;
+    display: flex;
+    align-content: space-around;
+    
+}
+
+
+.toggle
+{
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    background-color:white;
+    border-radius: 30px;
+    border:2px solid gray;
+}
+
+.toggle:after
+{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: gray;
+    top:1px;
+    left: 1px;
+    transition: all 0.5s;
+}
+
+.checkbox:checked + .toggle::after
+{
+    left: 40px;
+}
+
+.checkbox
+{
+    display: none;
+}
+
+.middle-smain
+{
+    display: flex;
+    align-content: space-around;
+    margin-left: 50px;
+}
+
+
+
+.middle-smain{
+    margin-top: 10px;
+}
+
+.end-smain
+{
+    margin-top:10px;
+    margin-bottom: 50px !important;
+    display: flex;
+    align-content: space-around;
+    margin-left: 50px;
+}
